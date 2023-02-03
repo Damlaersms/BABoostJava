@@ -5,7 +5,7 @@ public class Question044 {
 	public static void main(String[] args) {
 		// 2 ve 4 ün kaç kere geçtiğini
 		//hangisinin daha fazla olduğunu
-		//ÖDEV!!!!!!!!!!!!!!!!
+		
 		
 		
 		int[] sayilar = { 1, 3, 4, 4, 4, 4, 2, 2, 9, 8, 8 };
