@@ -22,7 +22,7 @@ public class Question048 {
 		Scanner scanner = new Scanner(System.in);
 		for (int i = 0; i < array.length; i++) {
 			for (int j = 0; j < array[i].length; j++) {
-				System.out.println(i+1 + ". grup üyelerini giriniz: ");
+				System.out.println(i+1 + ". grup: ");
 				array[i][j] = scanner.nextLine();
 			}
 			System.out.println();

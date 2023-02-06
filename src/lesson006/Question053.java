@@ -5,6 +5,7 @@ public class Question053 {
 	public static void main(String[] args) {
 		// verilen iki arreyde tekrar eden sayıları bulalım
 		// aynı olan sayıları
+		//aynı sayıları tekrar taramaması için ne yaparz??!!
 
 		int[] array1 = { 50, 60, 3, 4, 3, 9, 8, 7, 45, 95 };
 		int[] array2 = { 1, 2, 50, 60, 3, 8, 9, 7, 88, 95 };
