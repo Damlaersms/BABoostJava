@@ -5,7 +5,7 @@ public class HWAnswersQuestion2 {
 	public static void main(String[] args) {
 		//bir dizide en büyük ikinci sayıyı bulan program
 		
-		int nums[] = { 1, 13, 13, 13, 2, 5, 13, 1 };
+		int nums[] = { 1, 13, 13, 1, 2, 5, 13, 1 };
 		int eb = nums[0];
         int eb2 = nums[1];
         

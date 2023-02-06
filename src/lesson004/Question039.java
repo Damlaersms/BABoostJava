@@ -31,7 +31,7 @@ public class Question039 {
 			System.out.println("3-Polindrom Kontrolu");
 			System.out.println("4-kelimenin harflerinin arasına ? koy");//en sonuna koyma
 			System.out.println("5-kelimenin ilk üç indexini alıp sonuna ... koyun");
-			System.out.println("5-kelimenin ilk üç indexini alıp sonuna kalan harf sayısı kadar . koyun");
+			System.out.println("6-kelimenin ilk üç indexini alıp sonuna kalan harf sayısı kadar . koyun");
 			System.out.println("Bir seçim yapınız!");
 			int secim = scanner.nextInt();
 			scanner.nextLine();
