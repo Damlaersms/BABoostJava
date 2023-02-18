@@ -11,10 +11,12 @@ public class Profile {
 	public String profilResmi;
 	public String kullaniciAdi;
 	public String isim;
-	public boolean maviTik;
+	
 
 	public int takipciSayisi;
 	public int takipSayisi;
+	public boolean maviTik;
+	
 	int postSayisi ;
 	public String[] posts = new String[10];
 	
@@ -24,8 +26,10 @@ public class Profile {
 	
 	public String postOlustur(String posts) {
 		String metin = isim + " Post Oluşturdu";
-		postSayisi++;
+		this.postSayisi++;
 		this.posts[postSayisi] = posts;
+		
+		//this:  bulunduğu sınıfı gösterir
 		return metin;
 	}
 	
@@ -44,13 +48,15 @@ public class Profile {
 		verifiedCheck();
 	}
 	
-	//takipci sayısı 5ten fazla ise kullanıcıya mavi tik verelim
-	//maviTik
 	
 	public void kullaniciSil() {
 		this.takipciSayisi--;
 		verifiedCheck();
 	}
+	
+	
+	//takipci sayısı 5ten fazla ise kullanıcıya mavi tik verelim
+	//maviTik
 	
 	public void verifiedCheck() {
 		if(this.takipciSayisi> 5) {

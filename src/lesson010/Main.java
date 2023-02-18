@@ -15,6 +15,9 @@ public class Main {
 		profil1.isim ="mehmet2";
 		System.out.println(profil1.isim); // dinamik olarak değişmiş olur.
 		
+		System.out.println(profil1.postSayisi);
+		
+		System.out.println("*********");
 		
 		
 		System.out.println(profil1.postOlustur("resim2.png"));
@@ -32,6 +35,7 @@ public class Main {
 		profil1.profilIsminiGuncelle("yasin");
 		System.out.println(profil1.isim);
 		
+		System.out.println(profil1.takipciSayisi);
 		profil1.gelenIstegiKabulEt();
 		profil1.gelenIstegiKabulEt();
 		profil1.gelenIstegiKabulEt();
