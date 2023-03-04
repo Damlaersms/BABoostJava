@@ -9,7 +9,7 @@ public class Takim {
 	public Takim(String name) {
 		this.name = name;
 		this.puan = 0;
-		this.kasa =0;
+		this.kasa = 0;
 	}
 
 	public String getName() {
