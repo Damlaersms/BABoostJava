@@ -1,4 +1,4 @@
-package lesson019.KumandaHW;
+package lesson019.KumandaHWork;
 
 import java.util.Scanner;
 

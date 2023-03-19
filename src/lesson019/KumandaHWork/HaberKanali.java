@@ -1,4 +1,4 @@
-package lesson019.KumandaHW;
+package lesson019.KumandaHWork;
 
 public class HaberKanali extends Kanal {
 

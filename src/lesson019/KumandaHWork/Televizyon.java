@@ -1,4 +1,4 @@
-package lesson019.KumandaHW;
+package lesson019.KumandaHWork;
 
 import java.util.ArrayList;
 
@@ -43,7 +43,7 @@ public class Televizyon {
 
 		System.out.println(
 				"Kanal adı: " + kanallar.get(3).getKanalAdi() + " Kanal no:" + kanallar.get(3).getKanalNo());
-	};
+	}
 
 	public Televizyon(String marka, String boyut) {
 		super();
